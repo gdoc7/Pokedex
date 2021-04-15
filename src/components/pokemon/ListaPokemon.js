@@ -27,7 +27,7 @@ export default class ListaPokemon extends Component {
                     ))}
                     </div>
                 ) : (
-                <h1>Cargando Pokemon</h1>
+                <h1 style={{color: 'white'}} >Cargando...</h1>
                 ) }
             </React.Fragment>
 

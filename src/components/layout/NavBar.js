@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import logo from "../../pokemon.png"
 
 import './../../App.css';
 export default class NavBar extends Component {
@@ -6,8 +7,8 @@ export default class NavBar extends Component {
         return (
             <div>                
                 <nav class="navbar  fixed-top "> 
-                    <a class="navbar-brand" href="/">
-                        <img  id="logo" src="src/pokemon.png"/>
+                    <a class="navbar-logo" href="/">
+                        <img src={logo} />
                     </a>
                 </nav>                    
             </div>
