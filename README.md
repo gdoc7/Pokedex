@@ -13,5 +13,10 @@ Open [http://localhost:9000](http://localhost:9000) to view it in the browser.
 
 Vistas de login y singup !
 
+## Tecnologias
+
+- Node JS
+- MongoDB
+
 
 
